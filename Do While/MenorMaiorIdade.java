@@ -5,9 +5,9 @@ public class MenorMaiorIdade {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int res = 1, anoAt, anoNa, idade;
+		System.out.print("Digite o ano atual: ");
+		anoAt = in.nextInt();
 		do {
-			System.out.print("Digite o ano atual: ");
-			anoAt = in.nextInt();
 			System.out.print("Digite o ano de nascimento: ");
 			anoNa = in.nextInt();
 			idade = anoAt-anoNa;
@@ -21,5 +21,6 @@ public class MenorMaiorIdade {
 			res = in.nextInt();
 		}while(res!=2);
 		System.out.println("---- Fim da execução ----");
+		in.close();
 	}
 }
