@@ -10,7 +10,7 @@ public class PorcentagemMencaoNew {
 			System.out.print("Digite a mencao do aluno "+inx+": ");
 			mencao = in.next();
 			switch(mencao) {
-				case "MB": case "mb": case "Mb":
+				case "MB": case "mb": case "Mb": case "mB":
 					mb+=1;
 					break;
 				case "B": case "b":
