@@ -11,7 +11,7 @@ public class IdadeVelhoENovo {
 			anoNa = in.nextInt();
 			idade = anoAt-anoNa;
 			System.out.println(idade);
-			if(idade < nov) {
+			if(idade < nov || i == 1) {
 				nov = idade;
 			}
 			if(idade > vel) {
