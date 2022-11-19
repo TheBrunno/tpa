@@ -8,7 +8,7 @@ public class PrimoVetor {
 		boolean primo;
 		
 		for(int c=0; c<SIZE; c++) {
-			System.out.print("Digite o "+(c+1)+"บ numero: ");
+			System.out.print("Digite o "+(c+1)+"ยบ numero: ");
 			a[c] = in.nextInt();
 		}
 		
@@ -28,6 +28,6 @@ public class PrimoVetor {
 				System.out.println("O numero "+a[i]+" eh primo");
 			}
 		}
-		
+		in.close();
 	}
 }
