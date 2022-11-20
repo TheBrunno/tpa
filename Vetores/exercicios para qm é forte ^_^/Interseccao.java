@@ -40,6 +40,9 @@ public class Interseccao {
 			}
 		}
 		
+		if(c.length == 0) {
+			System.out.println("Os vetores nao possuem interseccao");
+		}
 		for(int i=0; i<c.length; i++) {
 			System.out.print(c[i]+" ");
 		}
