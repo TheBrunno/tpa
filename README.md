@@ -18,7 +18,7 @@
 
 ### Python:
 ```python
-  for c in range(500)
+  for c in range(500):
         print("💖 ETEC de Guaianazes 💖")
 ```
 
