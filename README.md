@@ -1,5 +1,5 @@
 <h1 align="center"> 🚀 Bruno & Antônio - TPA lessons 🚀 </h1>
-<p align="center">we are great friends: </p>
+<p align="center">we: </p>
 <div align="center">
   <img src="https://user-images.githubusercontent.com/68453992/202875129-79007aa7-f11c-445c-aa28-a69671c35a7b.gif">
 </div>
