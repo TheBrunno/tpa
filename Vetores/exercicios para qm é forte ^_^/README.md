@@ -23,8 +23,8 @@
 **7)** Criar um vetor A com 15 elementos inteiros. Construir um vetor B de mesmo tamanho, sendo que cada elemento do vetor B seja o fatorial do elemento correspondente em A.<br>[Acesse a solução](FatorialVetor.java)
 
 
-**8)** Ler um vetor A com 10 elementos. Construir um vetor B de mesmo tipo e tamanho, sendo que cada elemento de B deverá ser o seguinte somatório: Bi=Somatório deAj, para todo j variando de i até 10.<br>[Acesse a solução](Somatorio.java)<br>
-<img src="exercicios para qm é forte ^_^/somatoria do ex08.jpeg" width="200">
+**8)** Ler um vetor A com 10 elementos. Construir um vetor B de mesmo tipo e tamanho, sendo que cada elemento de B deverá ser o seguinte somatório: Bi=Somatório de Aj, para todo j variando de i até 10.<br>[Acesse a solução](Somatorio.java)<br>
+<img src="somatoria do ex08.jpeg" width="200">
 
 
 **9)** Criar dois vetores A e B cada um com 10 elementos inteiros. Desenvolver um programa que realize aintersecçãodosvetores A e B para produzir um vetor C. Interseção de conjuntos = todos os elementos que existem em A e também existem em B.
