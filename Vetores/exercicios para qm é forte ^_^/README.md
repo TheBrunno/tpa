@@ -1,4 +1,4 @@
-# Lista complementar  de Lógica de Programaçãoe Técnicas de Programação e Algoritmos
+# Lista complementar de Lógica de Programação e Técnicas de Programação e Algoritmos
 
 ## Treinando para trabalhar com vetores
 
@@ -27,22 +27,28 @@
 <img src="somatoria do ex08.jpeg" width="200">
 
 
-**9)** Criar dois vetores A e B cada um com 10 elementos inteiros. Desenvolver um programa que realize aintersecçãodosvetores A e B para produzir um vetor C. Interseção de conjuntos = todos os elementos que existem em A e também existem em B.
+**9)** Criar dois vetores A e B cada um com 10 elementos inteiros. Desenvolver um programa que realize a intersecção dos vetores A e B para produzir um vetor C. Interseção de conjuntos = todos os elementos que existem em A e também existem em B.<br>[Acesse a solução](Interseccao.java)
 
 
-**10)** Criar dois vetores A e B cada um com 10 elementos inteiros. Desenvolver um programa que crie um vetor C que é adiferençados conjuntos formados pelos elementos dos vetores A e B. Diferença de conjuntos = todos os elementos do conjunto A que não existem no conjunto B.  
+**10)** Criar dois vetores A e B cada um com 10 elementos inteiros. Desenvolver um programa que crie um vetor C que é a diferença dos conjuntos formados pelos elementos dos vetores A e B. Diferença de conjuntos = todos os elementos do conjunto A que não existem no conjunto B.<br>[Acesse a solução](DiferençaVetores.java)
 
 
-**11)** Ler 10 elementos inteiros em um vetor A. Montar uma rotina de busca, para pesquisar se um dado elemento X está armazenado em A.
+**11)** Ler 10 elementos inteiros em um vetor A. Montar uma rotina de busca, para pesquisar se um dado elemento X está armazenado em A. <br>[Acesse a solução](VerificarElementoVetor.java)
 
 
-**12)** Números palíndromos são aqueles que escritos da direita para a esquerda têm o mesmo valor quando escritos da esquerda para a direita. Exemplo: 545; 789987; 97379; 123454321; etc. Escreva um programa que verifique se um dado vetor A de 10 elementos inteiros é um palíndromo, ou seja, se o primeiro elemento do vetor e igual ao último, se o segundo elemento do vetor é igual ao penúltimo e assim por diante até verificar todos os elementos ou chegar a conclusão que o vetor não é um palíndromo.
+**12)** Números palíndromos são aqueles que escritos da direita para a esquerda têm o mesmo valor quando escritos da esquerda para a direita. Exemplo: 545; 789987; 97379; 123454321; etc. Escreva um programa que verifique se um dado vetor A de 10 elementos inteiros é um palíndromo, ou seja, se o primeiro elemento do vetor e igual ao último, se o segundo elemento do vetor é igual ao penúltimo e assim por diante até verificar todos os elementos ou chegar a conclusão que o vetor não é um palíndromo.<br>[Acesse a solução](Palindromo.java)
 
 
-**13)** Criar um vetor A com 10 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, obedecendo as seguintes regras de formação: a) Bideverá receber1quando Aifor par; b) Bideverá receber0quando Aifor ímpar.
+**13)** Criar um vetor A com 10 elementos inteiros. Construir um vetor B de mesmo tipo e tamanho, obedecendo as seguintes regras de formação: 
+a) Bi deverá receber 1 quando Ai for par; 
+b) Bi deverá receber 0 quando Ai for ímpar.<br>[Acesse a solução](RegraFormacao1.java)
 
 
-**14)** Criar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C de mesmo tipo e tamanho, obedecendo as seguintes regras de formação: a) Cideverá receber1quando Aifor maior que Bi;b) Cideverá receber0quando Aifor igual a Bi;c) Cideverá receber -1quando Aifor menor que Bi.
+**14)** Criar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C de mesmo tipo e tamanho, obedecendo as seguintes regras de formação: 
+a) Ci deverá receber 1 quando Ai for maior que Bi;
+b) Ci deverá receber 0 quando Ai for igual a Bi;
+c) Cideverá receber -1 quando Aifor menor que Bi.<br>[Acesse a solução](RegraFormacao2.java)
 
 
 **15)** Ler um vetor A com dez elementos inteiros. Criar um vetor B que tenha os 10 elementos de A em ordem crescente e um vetor C que tenha os 10 elementos de A em ordem descrescente.
+<br>[Acesse a solução](CrescenteDecrescente.java)
