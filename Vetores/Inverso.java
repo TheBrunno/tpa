@@ -1,9 +1,17 @@
+import java.util.Scanner;
+
 public class Inverso {
 	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
 		final int SIZE = 10;
 		
-		int a[] = {123, 45, 76, 23, 154, 982, 24, 3, 0, 387};
+		int a[] = new int[SIZE];
 		int b[] = new int[SIZE];
+
+		for(int i=0; i<SIZE; i++){
+			System.out.print("Digite o "+(i+1)+"º numero: ");
+			a[i] = in.nextInt();
+		}
 		
 		for(int i=(a.length-1);i>=0;i--) {
 			b[a.length-1-i] = a[i];
@@ -21,5 +29,7 @@ public class Inverso {
 				System.out.print(", ");
 			}
 		}
+		
+		in.close();
 	}
 }
