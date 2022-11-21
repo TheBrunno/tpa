@@ -1,7 +1,16 @@
+import java.util.Scanner;
+
 public class ParesVetor {
 	public static void main(String[] args) {
-		int a[] = {1, 2, 43, 62, 68, 99, 12, 0, 54, 76};
+		Scanner in = new Scanner(System.in);
+		final int TAM = 10;
+		int a[] = new int[TAM];
 		int c = 0;
+		
+		for(int i=0; i<TAM; i++) {
+			System.out.print("digite um numero para o elemento "+(i+1)+" do vetor: ");
+			a[i] = in.nextInt();
+		}
 		
 		System.out.print("Os numeros pares sao: ");
 		for(int i=0;i<a.length;i++) {
@@ -11,5 +20,6 @@ public class ParesVetor {
 			}
 		}
 		System.out.println("\nOu seja, "+c+" numeros pares.");
+		in.close();
 	}
 }
