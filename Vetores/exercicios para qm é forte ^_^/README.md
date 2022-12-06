@@ -51,4 +51,4 @@ c) Cideverá receber -1 quando Aifor menor que Bi.<br>[Acesse a solução](Regra
 
 
 **15)** Ler um vetor A com dez elementos inteiros. Criar um vetor B que tenha os 10 elementos de A em ordem crescente e um vetor C que tenha os 10 elementos de A em ordem descrescente.
-<br>[Acesse a solução](CrescenteDecrescente.java)
+<br>[Acesse a solução](Ordenar.java)
